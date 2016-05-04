@@ -1,5 +1,5 @@
 FROM sparklyballs/base-python-alpine
-ENV PS1="$(whoami)@$(hostname):$(pwd)$ "
+
 ARG APKLIST="ffmpeg lame py-pillow"
 ARG PIPLIST="beets discogs flask pyacoustid pylast"
 
